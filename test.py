@@ -4,7 +4,7 @@ import unittest
 
 class TestMain(unittest.TestCase):
     def test_odds_sum(self):
-        self.assertEqual(odds_sum([1, 2, 3]),4, "Should be 6")
+        self.assertEqual(odds_sum([1, 2, 3]),4, "Should be 4")
 
     def test_has_letter_cases(self):
         self.assertEqual(has_letter_cases("abcDEF"),True, "Should be True")
