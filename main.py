@@ -18,3 +18,6 @@ def find_lowercase_vowel(msg: str):
         if char in 'aeiou':
             return index
     return len(msg)
+def print_name(name):
+    
+    return "hi name"
